@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    >
+
+    <TextView 
+        android:id="@+id/label"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="This is a simple demo of binding to a remote service"
+        android:gravity="center"
+        />
+    <EditText
+        android:id="@+id/elem1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/label"
+        android:text="5"
+        />
+    <EditText
+        android:id="@+id/elem2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/elem1"
+        android:text="6"
+        />
+    <Button 
+        android:id="@+id/addButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignLeft="@id/elem2"
+        android:layout_below="@id/elem2"
+        android:text="add"
+        />
+    <Button 
+        android:id="@+id/subButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_toRightOf="@id/addButton"
+        android:layout_below="@id/elem2"
+        android:text="sub"
+        />
+   
+    <Button 
+        android:id="@+id/divButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignRight="@id/elem2"
+        android:layout_below="@id/elem2"
+        android:text="div"
+        />
+     <Button 
+        android:id="@+id/mulButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_toLeftOf="@id/divButton"
+        android:layout_below="@id/elem2"
+        android:text="mul"
+        />
+    <EditText
+        android:id="@+id/result"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/divButton"
+        android:text=""
+        />
+     <Button 
+        android:id="@+id/clearButton"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/result"
+        android:text="Clear"
+        />
+    
+    
+  
+
+</RelativeLayout>
