@@ -1,6 +1,6 @@
 /*
  * This file is auto-generated.  DO NOT MODIFY.
- * Original file: D:\\Eclipse Workspace\\RemoteCalculatorClient\\src\\com\\jump\\demos\\calculator\\CalculatorInterface.aidl
+ * Original file: D:\\Interview\\com.jump.demos.clients.RemoteCalculatorClientActivity\\src\\com\\jump\\demos\\calculator\\CalculatorInterface.aidl
  */
 package com.jump.demos.calculator;
 public interface CalculatorInterface extends android.os.IInterface
